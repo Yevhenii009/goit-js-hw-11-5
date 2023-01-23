@@ -1,9 +1,7 @@
 import axios from 'axios';
 
-
 const BASE_URL = 'https://pixabay.com/api';
 const API_KEY = '32997819-c25a939264b27cca8c9e33adb';
-
 
 export default class NewsApiService {
     constructor() {
@@ -28,17 +26,17 @@ async makesRequest () {
     }; 
 
     incrementPage() {
-        this.page += 1;           //Добавление сл.страницы/увеличение
+        this.page += 1;
     }
 
     resetPage() {
-        this.page = 1;            //След.поиск с 1 стр./сброс
+        this.page = 1; 
     }
 
     get query() {
         return this.searchQuery;
     }
-                                                //Контролирует термин запроса
+
     set query(newQuery) {
         this.searchQueary = newQuery;
     }
