@@ -2,7 +2,7 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://Yevhenii009.github.io/goit-js-hw-11-5/",
+  "homepage": "https://Yevhenii009.github.io/goit-js-hw-11-5",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-11-5/"
@@ -18,7 +18,18 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "dependencies": {
-    "modern-normalize": "^1.1.0"
+    "axios": "^1.2.3",
+    "form-data": "^4.0.0",
+    "handlebars": "^4.7.7",
+    "infinite-scroll": "^4.0.1",
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.6",
+    "notifyjs": "^3.0.0",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "sass": "^1.57.1",
+    "simplelightbox": "^2.12.1"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
